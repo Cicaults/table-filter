@@ -1,0 +1,48 @@
+.dropdown .filter {
+	width: 100%;
+}
+
+.filters {
+	display: none;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.filters ul {
+	list-style: none;
+}
+
+.qualifications {
+	float: left;
+	width: 50%;
+}
+
+.cities {
+	float: left;
+	width: 50%;
+}
+
+input[type="checkbox"] {
+	margin-right: 7px;
+}
+
+.list-title {
+	font-weight: bold; 
+}
+
+label {
+	font-weight: normal;
+}
+
+.filters .reset {
+	display: block;
+	width: 20%;
+	margin: auto;
+}
+.caret-open {
+    border-top: none;
+    border-bottom: 4px solid #000000;
+}

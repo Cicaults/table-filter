@@ -2,7 +2,7 @@ var main = function(){
 
 	// Получаем данные
 	var tableData;
-	$.post('ParseTable.php', function(data){
+	$.post('script/ParseTable.php', function(data){
 		try{
 			tableData = JSON.parse(data);
 			buildTable();
